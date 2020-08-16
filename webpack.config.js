@@ -8,6 +8,8 @@ module.exports = {
 		alias: {
 			Components: path.resolve(__dirname, './src/components/'),
       Reducers: path.resolve(__dirname, './src/reducers/'),
+      Actions: path.resolve(__dirname, './src/actions/'),
+      Selectors: path.resolve(__dirname, './src/selectors/'),
 		},
 	},
   output: {

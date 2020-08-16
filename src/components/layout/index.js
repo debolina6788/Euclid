@@ -9,17 +9,15 @@ import Home from 'Components/home';
 const Layout = (props) => {
 
 	return (
-		<div className="body">
-			<Fragment>
-				 <Router basename="/">
-					 <Fragment>
-						 <Switch>
-							 <Route path="/" exact component={Home} />
-						 </Switch>
-					 </Fragment>
-				 </Router>
-			</Fragment>
-		</div>
+		<Fragment>
+			 <Router basename="/">
+				 <Fragment>
+					 <Switch>
+						 <Route path="/" exact component={Home} />
+					 </Switch>
+				 </Fragment>
+			 </Router>
+		</Fragment>
 	);
 };
 
